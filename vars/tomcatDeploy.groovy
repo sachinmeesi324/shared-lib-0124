@@ -4,3 +4,4 @@ def call(ipAddress,userName,credentialId,warName){
                 sh "ssh ${userName}@${ipAddress} /opt/tomcat9/bin/shutdown.sh"
                 sh "ssh ${userName}@${ipAddress} /opt/tomcat9/bin/startup.sh"
 }
+}
